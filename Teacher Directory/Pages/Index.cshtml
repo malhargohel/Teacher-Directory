@@ -23,9 +23,8 @@
     }
 
     .font {
-        
         color: white;
-        font-family: "Courier New", Courier, monospace;
+        font-family: "Century Gothic"; 
         font-size: 25px;
         font-weight: bold;
     }
@@ -34,14 +33,14 @@
 
     .topleft {
         position: absolute;
-        top: 0;
-        left: 16px;
+        top: 10px;
+        left: 22px;
     }
 
     .topright {
         position: absolute;
-        top: 0;
-        right: 16px;
+        top: 10px;
+        right: 22px;
     }
 
     .bottomleft {
@@ -50,9 +49,11 @@
         left: 16px;
     }
 
+    
+
     .middle {
         position: absolute;
-        top: 50%;
+        top: 15%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -62,24 +63,53 @@
         margin: auto;
         width: 40%;
     }
+
+    .fontmiddle {
+        color: white;
+        font-family: "Century Gothic";
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    .loginbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #6acbfb;
+  border-radius: 8px;
+    }
+
+    .signupbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #6acbfb;
+        border-radius: 8px;
+    }
+
 </style>
 <body>
 
     <div class="font">
         <div class="topleft">
-            <a href="file:///C:/Users/malha/Desktop/School/ICT/Log%20In"><p>Log-In</p></a>
+            <a href="http://localhost:51241/Log-In"><button type="button" class="loginbtn">Log-In</button></a>
         </div>
 
         <div class="topright">
-            <a href="file:///C:/Users/malha/Desktop/School/ICT/Sign%20Up"><p>Sign-Up</p></a>
+            <a href="http://localhost:51241/Sign-Up"><button type="button" class="signupbtn">Sign-Up</button></a>
         </div>
-    
+
+
+    </div>
+
+    <div class="fontmiddle">
         <div class="middle">
             <h1>Welcome to the Avondale College Teacher Directory</h1>
             <hr>
-         </div>
+        </div>
     </div>
-    
-        
+
 </body>
 </html>
